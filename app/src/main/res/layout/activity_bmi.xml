@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/llBmi"
+    android:layout_height="match_parent"
+    tools:context=".bmi">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/bmi_logo"/>
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textStyle="bold"
+        android:textSize="35dp"/>
+    <EditText
+        android:id="@+id/edtWeight"
+        android:layout_width="wrap_content"
+        android:ems="10"
+        android:hint="Enter Your Weight"
+        android:inputType="number"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtHeightFeet"
+        android:layout_width="wrap_content"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your Height (ft)"/>
+    <EditText
+        android:id="@+id/edtHeightInch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Enter your Height (Inch)"/>
+    <Button
+        android:id="@+id/btnBmi"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bmi"/>
+
+
+
+</LinearLayout>
