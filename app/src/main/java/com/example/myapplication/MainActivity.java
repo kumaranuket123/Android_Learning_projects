@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         imgBtnTic=findViewById(R.id.imgBtnTic);
         imgBtnAnim=findViewById(R.id.imgBtnAnim);
 
-        Animation setAni= AnimationUtils.loadAnimation(this,R.anim.scale);
+        Animation setAni= AnimationUtils.loadAnimation(this,R.anim.rotation);
         imgBtnAnim.startAnimation(setAni);
         
         imgBtnBmi.setOnClickListener(new View.OnClickListener() {
