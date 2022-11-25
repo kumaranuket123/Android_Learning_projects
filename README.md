@@ -11,4 +11,4 @@ goosebumps.
 and many more to go...
 
 
-<img src='android Image/img1.jpge' width='600' height='400'>
+<img src='android Image/img1.jpg' width='200' height='400'>    <img src='android Image/img2.jpg' width='200' height='400'>    <img src='android Image/img3.jpg' width='200' height='400'>     <img src='android Image/tiktactoe.jpg' width='200' height='400'>
